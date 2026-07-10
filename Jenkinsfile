@@ -10,6 +10,7 @@ pipeline {
                 echo "Building.."
                 sh '''
                 echo "doing build stuff.."
+                chmod +x helloworld.sh
                 ./helloworld.sh
                 '''
             }
