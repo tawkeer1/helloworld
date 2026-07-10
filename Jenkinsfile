@@ -13,8 +13,8 @@ pipeline {
                 chmod +x helloworld.sh
                 ./helloworld.sh
                 echo "now executing java code"
-                '''
                 java HelloWorld.java
+                '''
             }
         }
         stage('Test') {
